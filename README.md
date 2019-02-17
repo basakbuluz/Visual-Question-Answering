@@ -1,24 +1,24 @@
-# :camera: :question: Görsel Soru Cevaplama / Visual-Question-Answering
+# :camera: :question: Görsel Soru Cevaplama / _Visual-Question-Answering
 
 **Görsel Soru Cevaplama** sahip olduğumuz bir resim ile ilgili sorulan sorulara, resim içerisindeki bilgilerin analiz edilmesi ile cevaplar üretilmeye çalışılması problemi olarak tanımlanabilir.
 
 Bu problemde metinler şeklinde ifade edilen soruların işlenmesi bir **Doğal Dil İşleme** problemi iken; resimler içerisinden cevapların üretiminde her bir soru ayrı bir **Bilgisayarla Görü** problemine işaret eder.
 
-**Visual Question Answering** can be defined as the problem of trying to produce answers by analyzing the information in the picture.
+_**Visual Question Answering** can be defined as the problem of trying to produce answers by analyzing the information in the picture._
 
-In this problem, the questions expressed in the form of texts are a ** Natural Language Processing ** problem; each question in the production of answers within the pictures indicates a separate **Computer Vision** problem.
+_In this problem, the questions expressed in the form of texts are a ** Natural Language Processing ** problem; each question in the production of answers within the pictures indicates a separate **Computer Vision** problem._
 
 
-**Genel olarak sisteme bakacak olursak: / If we look at the system in general:**
+**Genel olarak sisteme bakacak olursak: / _If we look at the system in general:_**
 
 ![alt text](https://github.com/basakbuluz/Visual-Question-Answering/blob/master/images/VQA1.png "Logo Title Text 1")
 
-**Görsel soru cevaplama problemi için geliştirilen modellerin genel yaklaşımı : / The general approach of the models developed for the visual questioning problem is:**
+**Görsel soru cevaplama problemi için geliştirilen modellerin genel yaklaşımı : / _The general approach of the models developed for the visual questioning problem is:_**
 
 ![alt text](https://github.com/basakbuluz/Visual-Question-Answering/blob/master/images/VQAmodels.png "Logo Title Text 1")
 
 ---
-### :pushpin: Görsel Soru Cevaplama görevi için geliştirilen ve literatürdeki çalışmalarda sıklıkla kullanılan veri kümeleri / Data sets developed for the Visual Question Answering task and frequently used in studies in the literature
+### :pushpin: Görsel Soru Cevaplama görevi için geliştirilen ve literatürdeki çalışmalarda sıklıkla kullanılan veri kümeleri / _Data sets developed for the Visual Question Answering task and frequently used in studies in the literature_
 
 * [DAQUAR](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/vision-and-language/visual-turing-challenge/)
 * [COCO-QA](https://github.com/renmengye/imageqa-public/tree/master/data)
@@ -32,20 +32,20 @@ In this problem, the questions expressed in the form of texts are a ** Natural L
 
 Görsel soru cevaplama ile ilgili anlatım ve bu görev için sıklıkla kullanılan veri kümeleri hakkında detaylı bilgi edinmek için ["Çok Gören Mi Bilir, Çok Soran Mı?"](https://medium.com/deep-learning-turkiye/%C3%A7ok-g%C3%B6ren-mi-bilir-%C3%A7ok-soran-m%C4%B1-4bed5efdba41) başlıklı blog yazıma göz atabilirsiniz.
 
-You can browse my blog titled ["Çok Gören Mi Bilir, Çok Soran Mı?"](https://medium.com/deep-learning-turkiye/%C3%A7ok-g%C3%B6ren-mi-bilir-%C3%A7ok-soran-m%C4%B1-4bed5efdba41) to get detailed information about the Visual Question Answering and the datasets frequently used for this task.
+_You can browse my blog titled ["Çok Gören Mi Bilir, Çok Soran Mı?"](https://medium.com/deep-learning-turkiye/%C3%A7ok-g%C3%B6ren-mi-bilir-%C3%A7ok-soran-m%C4%B1-4bed5efdba41) to get detailed information about the Visual Question Answering and the datasets frequently used for this task._
 
 ---
 
-## Uygulama (Implementation) :hammer:
+## Uygulama (_Implementation_) :hammer:
 
-### Gereksinimler (Requirements): 
+### Gereksinimler (_Requirements_): 
 
 * [Tensorflow (Ver. 1.2+)](https://www.tensorflow.org/install/pip)
 * [Keras (Ver. 2.0+)](https://pypi.org/project/Keras/)
 * [scikit-learn](https://scikit-learn.org/stable/install.html)
 * [Spacy (Ver 2.0+)](https://spacy.io/usage/)
-    * Glove vektörlerini yüklemek için kullanılır (word2vec) / Used to load Glove vectors (word2vec)
-    * Glove vektörlerini yükseltmek ve yüklemek için /  To upgrade & install Glove Vectors
+    * Glove vektörlerini yüklemek için kullanılır (word2vec) / _Used to load Glove vectors (word2vec)_
+    * Glove vektörlerini yükseltmek ve yüklemek için /  _To upgrade & install Glove Vectors_
        * python -m spacy download en_vectors_web_lg
        
 * [OpenCV](https://pypi.org/project/opencv-python/)
@@ -56,23 +56,23 @@ You can browse my blog titled ["Çok Gören Mi Bilir, Çok Soran Mı?"](https://
 
 [Bu jupyter notebook çalışma dosyası](https://nbviewer.jupyter.org/github/basakbuluz/Visual-Question-Answering/blob/master/VisualQuestionAnsweringDemo.ipynb), verilen görüntü hakkında sorulan soruyu cevaplamak için önceden hazırlanmış modelleri kullanan basit bir Görsel Soru Cevaplama demosudur.
 
-[This jupyter notebook](https://nbviewer.jupyter.org/github/basakbuluz/Visual-Question-Answering/blob/master/VisualQuestionAnsweringDemo.ipynb) is a simple Visual Question answering demo that uses pretrained models to answer a given question about the given image.
+[This jupyter notebook](https://nbviewer.jupyter.org/github/basakbuluz/Visual-Question-Answering/blob/master/VisualQuestionAnsweringDemo.ipynb) _is a simple Visual Question answering demo that uses pretrained models to answer a given question about the given image._
 
 ### API :computer:
 
 Geliştirdiğiniz ürünlere hızlı bir şekilde entegre edebileceğiniz API'yi kullanmak için [buraya](https://algorithmia.com/algorithms/yavuzkomecoglu/VQA) tıklayın.
 
-[Click here](https://algorithmia.com/algorithms/yavuzkomecoglu/VQA) to use the API that you can integrate quickly into the products you have developed.
+[Click here](https://algorithmia.com/algorithms/yavuzkomecoglu/VQA) _to use the API that you can integrate quickly into the products you have developed._
 
-##### API Python Uygulama / API Python Implementation
-###### Kurulum / Install
-Algorithmia Python istemcisini pip ile yükleyin / Install the Algorithmia Python client with pip:
+##### API Python Uygulama / _API Python Implementation_
+###### Kurulum / _Install_
+Algorithmia Python istemcisini pip ile yükleyin / _Install the Algorithmia Python client with pip:_
 
 ```
 pip install algorithmia
 ```
 
-###### Kullanım / Use
+###### Kullanım / _Use_
 ```
 import Algorithmia
 
@@ -86,10 +86,10 @@ print(algo.pipe(input).result)
 ```
 ---
 
-### Örnek Tahminler / Sample predictions 
+### Örnek Tahminler / _Sample predictions_
 VQA modeli tarafından tahmin edilen bazı cevaplar.
 
-Some answers predicted by the VQA model.
+_Some answers predicted by the VQA model._
 
 ![](images/test/test2.jpeg)
 
@@ -111,6 +111,6 @@ A: Stop! (%28.61)
 
 
 ---
-### Referanslar / References
+### Referanslar / _References_
 
 * [Aaditya Prakash (Adi) - Blog](https://iamaaditya.github.io/2016/04/visual_question_answering_demo_notebook)
