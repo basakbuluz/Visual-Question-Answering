@@ -1,4 +1,4 @@
-# :camera: :question: Görsel Soru Cevaplama / _Visual-Question-Answering
+# :camera: :question: Görsel Soru Cevaplama / _Visual-Question-Answering_
 
 **Görsel Soru Cevaplama** sahip olduğumuz bir resim ile ilgili sorulan sorulara, resim içerisindeki bilgilerin analiz edilmesi ile cevaplar üretilmeye çalışılması problemi olarak tanımlanabilir.
 
