@@ -22,7 +22,7 @@ _In this problem, the questions expressed in the form of texts are a **Natural L
 ![alt text](https://github.com/basakbuluz/Visual-Question-Answering/blob/master/images/VQAmodels.png "Logo Title Text 1")
 
 ---
-### :pushpin: Görsel Soru Cevaplama görevi için geliştirilen ve literatürdeki çalışmalarda sıklıkla kullanılan veri kümeleri**
+### :pushpin: Görsel Soru Cevaplama görevi için geliştirilen ve literatürdeki çalışmalarda sıklıkla kullanılan veri kümeleri
 **_Data sets developed for the Visual Question Answering task and frequently used in studies in the literature_**
 
 * [DAQUAR](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/vision-and-language/visual-turing-challenge/)
