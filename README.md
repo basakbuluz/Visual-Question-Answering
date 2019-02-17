@@ -1,4 +1,11 @@
 # :camera: :question: Görsel Soru Cevaplama / Visual-Question-Answering
+
+**Görsel Soru Cevaplama -orijinal adıyla Visual Question Answering (VQA)** sahip olduğumuz bir resim ile ilgili sorulan sorulara, resim içerisindeki bilgilerin analiz edilmesi ile cevaplar üretilmeye çalışılması problemi olarak tanımlanabilir.
+
+Bu problemde metinler şeklinde ifade edilen soruların işlenmesi bir **Doğal Dil İşleme** problemi iken; resimler içerisinden cevapların üretiminde her bir soru ayrı bir **Bilgisayarla Görü** problemine işaret eder.
+
+
+
 Görsel Soru Cevaplama Demo ve Algorithmia API (Visual Question Answering Demo and Algorithmia API)
 
 ### Gereksinimler (Requirements): 
