@@ -1,19 +1,25 @@
 # :camera: :question: Görsel Soru Cevaplama / Visual-Question-Answering
 
-**Görsel Soru Cevaplama -orijinal adıyla Visual Question Answering (VQA)** sahip olduğumuz bir resim ile ilgili sorulan sorulara, resim içerisindeki bilgilerin analiz edilmesi ile cevaplar üretilmeye çalışılması problemi olarak tanımlanabilir.
+**Görsel Soru Cevaplama** sahip olduğumuz bir resim ile ilgili sorulan sorulara, resim içerisindeki bilgilerin analiz edilmesi ile cevaplar üretilmeye çalışılması problemi olarak tanımlanabilir.
 
 Bu problemde metinler şeklinde ifade edilen soruların işlenmesi bir **Doğal Dil İşleme** problemi iken; resimler içerisinden cevapların üretiminde her bir soru ayrı bir **Bilgisayarla Görü** problemine işaret eder.
 
-**Genel olarak sisteme bakacak olursak:**
+**Visual Question Answering** can be defined as the problem of trying to produce answers by analyzing the information in the picture.
+
+In this problem, the questions expressed in the form of texts are a ** Natural Language Processing ** problem; each question in the production of answers within the pictures indicates a separate **Computer Vision** problem.
+
+
+**Genel olarak sisteme bakacak olursak: / If we look at the system in general:**
 
 ![alt text](https://github.com/basakbuluz/Visual-Question-Answering/blob/master/images/VQA1.png "Logo Title Text 1")
 
-**Görsel soru cevaplama problemi için geliştirilen modellerin genel yaklaşımı :**
+**Görsel soru cevaplama problemi için geliştirilen modellerin genel yaklaşımı : / The general approach of the models developed for the visual questioning problem is:**
 
 ![alt text](https://github.com/basakbuluz/Visual-Question-Answering/blob/master/images/VQAmodels.png "Logo Title Text 1")
 
 ---
-### :pushpin: Görsel Soru Cevaplama görevi için geliştirilen ve literatürdeki çalışmalarda sıklıkla kullanılan veri kümeleri
+### :pushpin: Görsel Soru Cevaplama görevi için geliştirilen ve literatürdeki çalışmalarda sıklıkla kullanılan veri kümeleri / Data sets developed for the Visual Question Answering task and frequently used in studies in the literature
+
 * [DAQUAR](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/vision-and-language/visual-turing-challenge/)
 * [COCO-QA](https://github.com/renmengye/imageqa-public/tree/master/data)
 * [VQA](https://visualqa.org/index.html)
