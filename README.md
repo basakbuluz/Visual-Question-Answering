@@ -13,7 +13,7 @@ Bu problemde metinler şeklinde ifade edilen soruların işlenmesi bir **Doğal 
 ![alt text](https://github.com/basakbuluz/Visual-Question-Answering/blob/master/images/VQAmodels.png "Logo Title Text 1")
 
 ---
-### Görsel Soru Cevaplama görevi için geliştirilen ve literatürdeki çalışmalarda sıklıkla kullanılan veri kümeleri
+### :pushpin: Görsel Soru Cevaplama görevi için geliştirilen ve literatürdeki çalışmalarda sıklıkla kullanılan veri kümeleri
 * [DAQUAR](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/vision-and-language/visual-turing-challenge/)
 * [COCO-QA](https://github.com/renmengye/imageqa-public/tree/master/data)
 * [VQA](https://visualqa.org/index.html)
@@ -30,7 +30,7 @@ You can browse my blog titled ["Çok Gören Mi Bilir, Çok Soran Mı?"](https://
 
 ---
 
-## UYGULAMA (IMPLEMENTATION)
+## Uygulama (Implementation) :hammer:
 
 ### Gereksinimler (Requirements): 
 
@@ -78,6 +78,7 @@ client = Algorithmia.client('YOUR_API_KEY')
 algo = client.algo('yavuzkomecoglu/VQA/0.1.1')
 print(algo.pipe(input).result)
 ```
+---
 
 ### Örnek Tahminler / Sample predictions 
 VQA modeli tarafından tahmin edilen bazı cevaplar.
