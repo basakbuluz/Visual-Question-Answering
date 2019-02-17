@@ -10,11 +10,13 @@ _In this problem, the questions expressed in the form of texts are a **Natural L
 
 
 **Genel olarak sisteme bakacak olursak:**
+
 **_If we look at the system in general:_**
 
 ![alt text](https://github.com/basakbuluz/Visual-Question-Answering/blob/master/images/VQA1.png "Logo Title Text 1")
 
 **Görsel soru cevaplama problemi için geliştirilen modellerin genel yaklaşımı :**
+
 **_The general approach of the models developed for the visual questioning problem is:_**
 
 ![alt text](https://github.com/basakbuluz/Visual-Question-Answering/blob/master/images/VQAmodels.png "Logo Title Text 1")
