@@ -12,7 +12,7 @@ Bu problemde metinler şeklinde ifade edilen soruların işlenmesi bir **Doğal 
 
 ![alt text](https://github.com/basakbuluz/Visual-Question-Answering/blob/master/images/VQAmodels.png "Logo Title Text 1")
 
-
+---
 ### Görsel Soru Cevaplama görevi için geliştirilen ve literatürdeki çalışmalarda sıklıkla kullanılan veri kümeleri
 * [DAQUAR](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/vision-and-language/visual-turing-challenge/)
 * [COCO-QA](https://github.com/renmengye/imageqa-public/tree/master/data)
@@ -20,8 +20,8 @@ Bu problemde metinler şeklinde ifade edilen soruların işlenmesi bir **Doğal 
 * [FM-IQA](http://research.baidu.com/Downloads)
 * [VISUAL GENOME](https://visualgenome.org/)
 * [VISUAL7W](http://web.stanford.edu/~yukez/visual7w/)
-
-Görsel Soru Cevaplama Demo ve Algorithmia API (Visual Question Answering Demo and Algorithmia API)
+---
+## Görsel Soru Cevaplama Demo ve Algorithmia API (Visual Question Answering Demo and Algorithmia API)
 
 ### Gereksinimler (Requirements): 
 
@@ -34,12 +34,6 @@ Görsel Soru Cevaplama Demo ve Algorithmia API (Visual Question Answering Demo a
        * python -m spacy download en_vectors_web_lg
        
 * [OpenCV](https://pypi.org/project/opencv-python/)
-
-### Blog 📝
-
-Görsel soru cevaplama ile ilgili anlatım ve bu görev için sıklıkla kullanılan veri kümeleri hakkında detaylı bilgi edinmek için ["Çok Gören Mi Bilir, Çok Soran Mı?"](https://medium.com/deep-learning-turkiye/%C3%A7ok-g%C3%B6ren-mi-bilir-%C3%A7ok-soran-m%C4%B1-4bed5efdba41) başlıklı blog yazıma göz atabilirsiniz.
-
-You can browse my blog titled ["Çok Gören Mi Bilir, Çok Soran Mı?"](https://medium.com/deep-learning-turkiye/%C3%A7ok-g%C3%B6ren-mi-bilir-%C3%A7ok-soran-m%C4%B1-4bed5efdba41) to get detailed information about the Visual Question Answering and the datasets frequently used for this task.
 
 ### Demo 🖥️
 
@@ -99,6 +93,14 @@ A: Surfing! (%99.43)
 Q: What does the sign say?
 A: Stop! (%28.61)
 
+---
+## Blog 📝
+
+Görsel soru cevaplama ile ilgili anlatım ve bu görev için sıklıkla kullanılan veri kümeleri hakkında detaylı bilgi edinmek için ["Çok Gören Mi Bilir, Çok Soran Mı?"](https://medium.com/deep-learning-turkiye/%C3%A7ok-g%C3%B6ren-mi-bilir-%C3%A7ok-soran-m%C4%B1-4bed5efdba41) başlıklı blog yazıma göz atabilirsiniz.
+
+You can browse my blog titled ["Çok Gören Mi Bilir, Çok Soran Mı?"](https://medium.com/deep-learning-turkiye/%C3%A7ok-g%C3%B6ren-mi-bilir-%C3%A7ok-soran-m%C4%B1-4bed5efdba41) to get detailed information about the Visual Question Answering and the datasets frequently used for this task.
+
+---
 ### Referanslar / References
 
 * [Aaditya Prakash (Adi) - Blog](https://iamaaditya.github.io/2016/04/visual_question_answering_demo_notebook)
