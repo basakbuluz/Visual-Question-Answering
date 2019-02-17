@@ -1,15 +1,14 @@
-# :camera: :question: Visual-Question-Answering
-Visual Question Answering Demo and Algorithmia API
+# :camera: :question: Görsel Soru Cevaplama / Visual-Question-Answering
+Görsel Soru Cevaplama Demo ve Algorithmia API (Visual Question Answering Demo and Algorithmia API)
 
-
-### Requirements (Gereksinimler): 
+### Gereksinimler (Requirements): 
 
 * [Tensorflow (Ver. 1.2+)](https://www.tensorflow.org/install/pip)
 * [Keras (Ver. 2.0+)](https://pypi.org/project/Keras/)
 * [scikit-learn](https://scikit-learn.org/stable/install.html)
 * [Spacy (Ver 2.0+)](https://spacy.io/usage/)
-    * Used to load Glove vectors (word2vec)
-    * To upgrade & install Glove Vectors
+    * Glove vektörlerini yüklemek için kullanılır (word2vec) / Used to load Glove vectors (word2vec)
+    * Glove vektörlerini yükseltmek ve yüklemek için /  To upgrade & install Glove Vectors
        * python -m spacy download en_vectors_web_lg
        
 * [OpenCV](https://pypi.org/project/opencv-python/)
@@ -34,15 +33,15 @@ Geliştirdiğiniz ürünlere hızlı bir şekilde entegre edebileceğiniz API'yi
 
 [Click here](https://algorithmia.com/algorithms/yavuzkomecoglu/VQA) to use the API that you can integrate quickly into the products you have developed.
 
-##### API Python Implementation
-###### Install
-Install the Algorithmia Python client with pip:
+##### API Python Uygulama / API Python Implementation
+###### Kurulum / Install
+Algorithmia Python istemcisini pip ile yükleyin / Install the Algorithmia Python client with pip:
 
 ```
 pip install algorithmia
 ```
 
-###### Use
+###### Kullanım / Use
 ```
 import Algorithmia
 
@@ -55,7 +54,7 @@ algo = client.algo('yavuzkomecoglu/VQA/0.1.1')
 print(algo.pipe(input).result)
 ```
 
-### Sample predictions (Örnekler)
+### Örnek Tahminler / Sample predictions 
 VQA modeli tarafından tahmin edilen bazı cevaplar.
 
 Some answers predicted by the VQA model.
@@ -78,6 +77,6 @@ A: Surfing! (%99.43)
 Q: What does the sign say?
 A: Stop! (%28.61)
 
-### References
+### Referanslar / References
 
 * [Aaditya Prakash (Adi) - Blog](https://iamaaditya.github.io/2016/04/visual_question_answering_demo_notebook)
