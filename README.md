@@ -4,7 +4,22 @@
 
 Bu problemde metinler şeklinde ifade edilen soruların işlenmesi bir **Doğal Dil İşleme** problemi iken; resimler içerisinden cevapların üretiminde her bir soru ayrı bir **Bilgisayarla Görü** problemine işaret eder.
 
+Genel olarak sisteme bakacak olursak:
 
+![alt text](https://github.com/basakbuluz/Visual-Question-Answering/blob/master/images/VQA1.png "Logo Title Text 1")
+
+Görsel soru cevaplama problemi için geliştirilen modellerin genel yaklaşımı :
+
+![alt text](https://github.com/basakbuluz/Visual-Question-Answering/blob/master/images/VQAmodels.png "Logo Title Text 1")
+
+
+### Görsel Soru Cevaplama görevi için geliştirilen ve literatürdeki çalışmalarda sıklıkla kullanılan veri kümeleri
+* [DAQUAR](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/vision-and-language/visual-turing-challenge/)
+* [COCO-QA](https://github.com/renmengye/imageqa-public/tree/master/data)
+* [VQA](https://visualqa.org/index.html)
+* [FM-IQA](http://research.baidu.com/Downloads)
+* [VISUAL GENOME](https://visualgenome.org/)
+* [VISUAL7W](http://web.stanford.edu/~yukez/visual7w/)
 
 Görsel Soru Cevaplama Demo ve Algorithmia API (Visual Question Answering Demo and Algorithmia API)
 
