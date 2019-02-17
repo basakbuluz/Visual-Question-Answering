@@ -65,6 +65,8 @@ Some answers predicted by the VQA model.
 Q: How is the weather? 
 A: Sunny! (%97.23)
 
+Q: How many girls are in the picture?
+A: 2! (%61.98)
 
 ![](images/test/test5.jpg)
 
