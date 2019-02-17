@@ -4,11 +4,11 @@
 
 Bu problemde metinler şeklinde ifade edilen soruların işlenmesi bir **Doğal Dil İşleme** problemi iken; resimler içerisinden cevapların üretiminde her bir soru ayrı bir **Bilgisayarla Görü** problemine işaret eder.
 
-Genel olarak sisteme bakacak olursak:
+**Genel olarak sisteme bakacak olursak:**
 
 ![alt text](https://github.com/basakbuluz/Visual-Question-Answering/blob/master/images/VQA1.png "Logo Title Text 1")
 
-Görsel soru cevaplama problemi için geliştirilen modellerin genel yaklaşımı :
+**Görsel soru cevaplama problemi için geliştirilen modellerin genel yaklaşımı :**
 
 ![alt text](https://github.com/basakbuluz/Visual-Question-Answering/blob/master/images/VQAmodels.png "Logo Title Text 1")
 
