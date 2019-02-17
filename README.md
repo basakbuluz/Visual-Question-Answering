@@ -21,7 +21,16 @@ Bu problemde metinler şeklinde ifade edilen soruların işlenmesi bir **Doğal 
 * [VISUAL GENOME](https://visualgenome.org/)
 * [VISUAL7W](http://web.stanford.edu/~yukez/visual7w/)
 ---
-## Görsel Soru Cevaplama Demo ve Algorithmia API (Visual Question Answering Demo and Algorithmia API)
+
+## Blog 📝
+
+Görsel soru cevaplama ile ilgili anlatım ve bu görev için sıklıkla kullanılan veri kümeleri hakkında detaylı bilgi edinmek için ["Çok Gören Mi Bilir, Çok Soran Mı?"](https://medium.com/deep-learning-turkiye/%C3%A7ok-g%C3%B6ren-mi-bilir-%C3%A7ok-soran-m%C4%B1-4bed5efdba41) başlıklı blog yazıma göz atabilirsiniz.
+
+You can browse my blog titled ["Çok Gören Mi Bilir, Çok Soran Mı?"](https://medium.com/deep-learning-turkiye/%C3%A7ok-g%C3%B6ren-mi-bilir-%C3%A7ok-soran-m%C4%B1-4bed5efdba41) to get detailed information about the Visual Question Answering and the datasets frequently used for this task.
+
+---
+
+## UYGULAMA (IMPLEMENTATION)
 
 ### Gereksinimler (Requirements): 
 
@@ -93,12 +102,6 @@ A: Surfing! (%99.43)
 Q: What does the sign say?
 A: Stop! (%28.61)
 
----
-## Blog 📝
-
-Görsel soru cevaplama ile ilgili anlatım ve bu görev için sıklıkla kullanılan veri kümeleri hakkında detaylı bilgi edinmek için ["Çok Gören Mi Bilir, Çok Soran Mı?"](https://medium.com/deep-learning-turkiye/%C3%A7ok-g%C3%B6ren-mi-bilir-%C3%A7ok-soran-m%C4%B1-4bed5efdba41) başlıklı blog yazıma göz atabilirsiniz.
-
-You can browse my blog titled ["Çok Gören Mi Bilir, Çok Soran Mı?"](https://medium.com/deep-learning-turkiye/%C3%A7ok-g%C3%B6ren-mi-bilir-%C3%A7ok-soran-m%C4%B1-4bed5efdba41) to get detailed information about the Visual Question Answering and the datasets frequently used for this task.
 
 ---
 ### Referanslar / References
